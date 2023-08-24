@@ -2,9 +2,12 @@
 	name = Albert Ricart
 	email = contact@albertricart.dev
 	signingkey = ~/.ssh/id_ed25519.pub
+[core]
+	editor = vim
 [gpg]
 	format = ssh
 [commit]
 	gpgsign = true
-[core]
-	editor = vim
+[tag]
+	gpgSign = true
+
